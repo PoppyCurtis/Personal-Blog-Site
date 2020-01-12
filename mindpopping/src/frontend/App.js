@@ -1,10 +1,10 @@
 import React from 'react';
-import Background from './components/Home/background'
+import HomePage from './components/Home/homepageMain';
 
 function App() {
   return (
     <div className="App">
-      <Background/>
+      <HomePage/>
     </div>
   );
 }
