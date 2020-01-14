@@ -5,19 +5,21 @@ body {
     
 }
 
-.background {
-    position: relative;
+.backgroundPic {
+    position: absolute;
     top: 0;
     left: 0;
     height: 100vh;
     width: 100vw;
     background-image: url('./../../../static/IMG_0323.jpg');
     background-size: cover;
-    z-index: auto;
+    opacity: 0.6;
+    z-index: -1;
 }
-.background .water {
-    position: relative;
-    z-index: auto;
+.backgroundPic .water {
+    position: absolute;
+    opacity: 0.6;
+    z-index: -1;
     top: 0;
     left: 0;
     height: 100%;
