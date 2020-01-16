@@ -5,20 +5,12 @@ import './homepageMain.css';
 class HomePageMain extends Component {
     render() {
         return (
-            <div id='container'>
-                <div class="card" style={{align: 'centre', width: '18rem'}}>
-                    <div class="card-text">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat
-                        cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum.
-                    </div>
+            <div className='container'>
+                <div className="jumbotron" style={{ position: 'relative', align: 'centre', width: '60%', top: '70px', margin: 'auto', backgroundColor: '#FCF6F5FF' }}>
+                    <h2 className="display-4">Hello Holidays...</h2>
+                    <hr class="my-4" />
+                    <p className="lead" >Unlock you holiday experiences. Your personal site to upload photo albums,
+                    write stories and make new memories choosing new destinations.</p>
                 </div>
                 <div id="background">
                     <Background />

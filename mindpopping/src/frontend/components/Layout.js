@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Layout extends Component {
     render() {
-        
+
         return (
             <div id="layoutComponent">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -36,7 +36,8 @@ class Layout extends Component {
                         </form>
                     </div>
                 </nav>
-       
+
+
             </div>
         );
     }
